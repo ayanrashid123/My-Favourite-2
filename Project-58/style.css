@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    margin: 0px;
+}
+#About{
+ position: absolute;
+    height: 400px;
+    background: linear-gradient(#60ebeb 0%,#27ae60 100%);
+    left: 0;
+    top: 0;
+    right: 0;   
+}
+#My Favourite Books{
+  position: absolute;
+    height: 400px;
+     left: 0;
+    top: 0;
+    right: 0;
+}
+.Profile{
+ width: 175px;
+    height: auto;
+    margin-bottom: 50px;
+    border-radius: 50%;   
+}
+#Name{
+     font: 50px;
+}
+#BIO{
+   padding: 50px;
+    margin: 400px;  
+}
+.Line{
+ height: 6px;
+    width: 70px;
+    margin: 8px auto;
+    background-color: black;   
+}
+.Menu{
+list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;    
+}
+.List{
+    float: left;
+    color: crimson;
+    padding: 7px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.List:hover{
+   background-color: darkorange;  
+}
+a{
+    text-decoration: none
+}
